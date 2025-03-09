@@ -5,11 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }} - GitHub Pages</title>
         
+        <base href="https://azure-baboon.cloudvent.net/" target="_blank">
+        
+        <link rel="stylesheet" href="assets/css/main.css" />
+        
       </head>
       <body>
         <nav>
           {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="current-page"{% endif %}>
               {{ item.name }}
             </a>
           {% endfor %}

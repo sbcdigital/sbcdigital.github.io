@@ -1,0 +1,12 @@
+<form method="post" action="success.html">
+
+  <label for="name">What's your name?</label>
+  <input id="name" type="text" name="name" />
+  
+  <input type="hidden" name="inbox_key" value="development-my-inbox" />
+
+  <input type="text" name="_gotcha" style="display: none;" />
+  
+  <button type="submit">Submit</button>
+
+</form>

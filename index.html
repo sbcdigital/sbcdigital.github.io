@@ -4,3 +4,15 @@ layout: homepage
 ---
 
 <p>This is the homepage</p>
+
+<h2>Latest News</h2>
+<ul>
+  {% for news_item in site.news_items %}
+    <li>
+      <article>
+        <h3>{{ news_item.title }}</h3>
+        {{ news_item.content }}  
+      </article>
+    </li>
+  {% endfor %}
+</ul>

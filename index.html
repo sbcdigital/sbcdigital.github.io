@@ -12,6 +12,7 @@ layout: homepage
       <article>
         <h3>{{ news_item.title }}</h3>
         {{ news_item.content }}  
+        <a href="{{ news_item.url }}">Read more <span class="visually-hidden">about {{ news_item.title }}</span></a>
       </article>
     </li>
   {% endfor %}

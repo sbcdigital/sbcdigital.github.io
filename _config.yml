@@ -5,4 +5,5 @@ title: "Jekyll Actions Demo"
 # Collections
 
 collections:
- - news_items
+ news_items:
+  output: true

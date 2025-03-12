@@ -1,4 +1,0 @@
----
-title: News Items #1
----
-<p>This is News Item #1</p>
